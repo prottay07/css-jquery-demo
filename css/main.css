@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #EFF6FD;
+}
+
+p {
+    font-size: 14px;
+    font-family: "Raleway", sans-serif !important;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.4;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+/* Header CSS */
+
+.nav.navbar-nav li {
+    float: left;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    /* padding-right: 1.5rem; */
+    /* padding-left: 1.5rem; */
+    margin-left: .5rem;
+    margin-right: .5rem;
+}
+
+.navbar-expand-lg .navbar-nav .big-gap {
+    margin-right: 4.5rem;
+}
+
+.header-top {
+
+    background-color: #0e758e;
+    padding: 15px 0;
+
+}
+
+.link {
+    color: white;
+}
+
+.header-top-link {
+    text-align: center;
+    margin-top: 3px;
+    margin-bottom: 0px;
+
+}
+
+.header-top-link .link {
+    text-align: center;
+    margin-right: 8px;
+
+    margin-bottom: 0px;
+    padding: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+
+.header-top a {
+    text-decoration: none;
+}
+
+
+/* Service CSS */
+
+.services-section{
+    margin-bottom: 50px;
+}
+
+.service-card {
+    border-bottom: 4px solid #59A1B2;
+
+}
+
+
+.service-title-color {
+    color: #0E758E;
+}
+
+.image-slick img{
+    width: 100%;
+    height: 80vh;
+}
+
+.top-btn{
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    background: red;
+    font-size: 25px;
+    width: 40px;
+    height: 40px;
+    color: white;
+    padding: 2px;
+    border: none;
+    display: none;
+
+}
+
+.footer-section{
+    padding-top: 20px;
+    margin-top: 50px;
+    background-color:#999;
+    color: white;
+}
+
+.footer-heading{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.contact-form .footer-input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.map{
+    
+    width: 300px;
+}
+
+.footer-bottom{
+    background-color: rgba(0, 0, 0, 0.10);
+    color: white;
+    padding: 10px 0;
+        
+}
+.bottom-txt p{
+    text-align: center;
+}
+
+.prod-btn{
+    margin-top: 50px;
+}
+
