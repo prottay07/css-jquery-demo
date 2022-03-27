@@ -88,6 +88,7 @@ p {
 .image-slick img{
     width: 100%;
     height: 80vh;
+    position: relative;
 }
 
 .top-btn{
@@ -143,3 +144,26 @@ p {
     margin-top: 50px;
 }
 
+img .control-c {
+    width: 30px;
+    height: 30px;
+    
+}
+
+.slick-prev-img{
+   
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    left: 0;
+    top: -20;
+}
+
+.slick-next-img{
+   
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    right: 0;
+    top: -20;
+} 

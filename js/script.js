@@ -10,12 +10,16 @@ $(document).ready(function(){
     //    dots:true,
     //     dotsClass:'slick-dots',
        // easing:'linear',
-       autoplay:true,
-       autoplaySpeed:3000,
+       autoplay:false,
+    //    autoplaySpeed:3000,
 
+    prevArrow:".slick-prev-img",
+    nextArrow:".slick-next-img"
+    
 
+});
     });
-  })
+
 
   // Jquery Scroll Stop
 
